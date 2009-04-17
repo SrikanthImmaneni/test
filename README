@@ -1,0 +1,15 @@
+The Task
+--------
+
+Fill out the search.css and search.js so that:
+
+- Everything is centered on the page and center aligned to the parent container
+- The controls are centered under the image
+- Only one image is shown at a time
+- Makes a request to the Flickr API for the tag entered in the search box
+- Each click of the previous/next button will either move to the appropriate image or loop back through the list
+
+You should not need to add any additional selectors to the CSS file but you will need to modify the existing definitions in order to get the correct display.
+The Javascript file has all the necessary methods but feel free to add convenience methods as you see fit. You should not need to modify the public methods, only the private ones.
+
+Feel free to add any additional functionality, eye candy, etc.
