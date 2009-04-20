@@ -9,7 +9,7 @@ Search = function() {
     // URL of Flickr API
     var _url = "http://api.flickr.com/services/feeds/photos_public.gne?tags=<TAG>&tagmode=any&format=json&jsoncallback=?";
 
-    // This method will add in all the event handlers
+    // This method will add all the event handlers
     //
     // You will need to handle:
     //
@@ -26,7 +26,6 @@ Search = function() {
         $.getJSON(urlWithQuery, _callback);
     };
 
-
     // Handle the result of the Flickr call, keeping in mind:
     //
     // 1) Initially, show only the first image
@@ -39,10 +38,6 @@ Search = function() {
     return {
         init : function () {
             _addEventHandlers();
-        },
-
-        search : function(query) {
-            _search(query);
         }
     };
 }();
