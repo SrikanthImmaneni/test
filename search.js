@@ -19,26 +19,18 @@ Search = function() {
     var _addEventHandlers = function() {
     };
 
-    // This method takes in a query and displays the first image
+    // Make JSON call and pass the results to the _callback function
     var _search = function(query) {
         var urlWithQuery = _url.replace("<TAG>", query);
-
-        // Make JSON call and pass the results to the _callback function
     };
 
 
+    // Handle the result of the Flickr call, keeping in mind:
+    //
+    // 1) Initially, show only the first image
+    // 2) Only show the first _limit# of images
+    // 3) The image(s) should be displayed inside the '<div id="search-results-container"></div>'
     var _callback = function(data) {
-        // Show the controls
-
-        var items = data.items;
-
-        // Loop through items doing the following:
-        // 1) Create and <img> tag and append to the search results DIV
-        // - Each image source can be found in item.media.m
-        // - Ex. var img = $("<img/>").attr("src", item.media.m);
-        // 2) Show only the first image
-        // 3) Add to the container
-        // 4) Only show the first _limit# of images
     };
 
     return {
