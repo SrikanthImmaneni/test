@@ -17,11 +17,13 @@ Search = function() {
     // 2) Enter key on search field
     // 3) Previous/next button clicked
     var _addEventHandlers = function() {
+        //FIXME: Implement
     };
 
     // Make JSON call and pass the results to the _callback function
     var _search = function(query) {
         var urlWithQuery = _url.replace("<TAG>", query);
+        $.getJSON(urlWithQuery, _callback);
     };
 
 
@@ -31,6 +33,7 @@ Search = function() {
     // 2) Only show the first _limit# of images
     // 3) The image(s) should be displayed inside the '<div id="search-results-container"></div>'
     var _callback = function(data) {
+        //FIXME: Implement
     };
 
     return {
