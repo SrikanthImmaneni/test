@@ -11,6 +11,5 @@ Fill out the search.css and search.js so that:
 
 Note:
 - We have already included jQuery so please use that in your solution
-- Please use the sprite for the controls instead of creating new images for the previous/next buttons
 
 Feel free to add any additional functionality, eye candy, etc. For further clarification, please see the comments within the files.
