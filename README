@@ -9,4 +9,8 @@ Fill out the search.css and search.js so that:
 - Either the Enter key or the Go button makes a request to the Flickr API for the tag in the search box
 - Each click of the previous/next button will either move to the appropriate image or loop back through the list
 
-Feel free to add any additional functionality, eye candy, etc.
+Note:
+- We have already included jQuery so please use that in your solution
+- Please use the sprite for the controls instead of creating new images for the previous/next buttons
+
+Feel free to add any additional functionality, eye candy, etc. For further clarification, please see the comments within the files.
